@@ -1,5 +1,5 @@
 //
-//  numberViewController.swift
+//  NumberViewConrtoller.swift
 //  RxSwiftEx
 //
 //  Created by 여누 on 7/30/24.
@@ -10,9 +10,9 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-final class numberViewController : UIViewController {
+final class NumberViewConrtoller : UIViewController {
     
-    let numFirstTextField : UITextField = {
+    let numOenTextField : UITextField = {
         let field = UITextField()
         field.layer.borderWidth = 1
         field.layer.borderColor = UIColor(ciColor: .cyan).cgColor
@@ -46,8 +46,8 @@ final class numberViewController : UIViewController {
         view.backgroundColor = .white
         resultLabel.backgroundColor = .cyan
         
-        view.addSubview(numFirstTextField)
-        numFirstTextField.snp.makeConstraints { make in
+        view.addSubview(numOenTextField)
+        numOenTextField.snp.makeConstraints { make in
             make.top.equalTo(view.safeAreaLayoutGuide).offset(100)
             make.horizontalEdges.equalTo(view.safeAreaLayoutGuide).inset(100)
             make.height.equalTo(50)
@@ -55,7 +55,7 @@ final class numberViewController : UIViewController {
         
         view.addSubview(numTwoTextField)
         numTwoTextField.snp.makeConstraints { make in
-            make.top.equalTo(numFirstTextField.snp.bottom).offset(10)
+            make.top.equalTo(numOenTextField.snp.bottom).offset(10)
             make.horizontalEdges.equalTo(view.safeAreaLayoutGuide).inset(100)
             make.height.equalTo(50)
         }
@@ -142,7 +142,7 @@ final class numberViewController : UIViewController {
         
         // 5.
         
-        Observable.zip(numFirstTextField.rx.text.orEmpty, numTwoTextField.rx.text.orEmpty, numThreeTextField.rx.text.orEmpty ) {one,two,three -> Int in
+        Observable.zip(numOenTextField.rx.text.orEmpty, numTwoTextField.rx.text.orEmpty, numThreeTextField.rx.text.orEmpty ) {one,two,three -> Int in
             return (Int(one) ?? 0) + (Int(two) ?? 0) + (Int(three) ?? 0)
         }
         .map { $0.description }
@@ -181,7 +181,7 @@ final class numberViewController : UIViewController {
 //            print("onDisposed")
 //        }
 //        .disposed(by: disposebag)
-//        
+//
 
         
         // 강한참조를 피해 메모리 누수 방지 !
@@ -243,7 +243,7 @@ final class numberViewController : UIViewController {
 //        .disposed(by: disposebag)
         
  
-        Observable.combineLatest(numFirstTextField.rx.text.orEmpty, numTwoTextField.rx.text.orEmpty, numThreeTextField.rx.text.orEmpty) { one, two, three -> Int in
+        Observable.combineLatest(numOenTextField.rx.text.orEmpty, numTwoTextField.rx.text.orEmpty, numThreeTextField.rx.text.orEmpty) { one, two, three -> Int in
             return (Int(one) ?? 0) + (Int(two) ?? 0) + (Int(three) ?? 0)
         }
         .map { $0.description }

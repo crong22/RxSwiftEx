@@ -1,5 +1,5 @@
 //
-//  validationViewController.swift
+//  ValidationViewConrtoller.swift
 //  RxSwiftEx
 //
 //  Created by 여누 on 7/30/24.
@@ -13,7 +13,7 @@ import RxCocoa
 private let minimalUsernameLength = 5
 private let minimalPasswordLength = 5
 
-class validationViewController : UIViewController {
+final class ValidationViewConrtoller : UIViewController {
     let nickLabel : UILabel = {
         let label = UILabel()
         label.text = "ID"
