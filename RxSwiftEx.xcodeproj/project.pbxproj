@@ -17,6 +17,7 @@
 		D863710D2C58D02400EE4A31 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D863710C2C58D02400EE4A31 /* RxCocoa */; };
 		D863710F2C58D02400EE4A31 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D863710E2C58D02400EE4A31 /* RxSwift */; };
 		D86371112C58D05F00EE4A31 /* numberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371102C58D05F00EE4A31 /* numberViewController.swift */; };
+		D86371162C58E0A100EE4A31 /* validationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371152C58E0A100EE4A31 /* validationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D86370FC2C58C2DD00EE4A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D86370FE2C58C2DD00EE4A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D86371102C58D05F00EE4A31 /* numberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberViewController.swift; sourceTree = "<group>"; };
+		D86371152C58E0A100EE4A31 /* validationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		D86370EF2C58C2DC00EE4A31 /* RxSwiftEx */ = {
 			isa = PBXGroup;
 			children = (
+				D86371122C58E07800EE4A31 /* Validation */,
 				D86371052C58CFF300EE4A31 /* Number */,
 				D86370F02C58C2DC00EE4A31 /* AppDelegate.swift */,
 				D86370F22C58C2DC00EE4A31 /* SceneDelegate.swift */,
@@ -82,6 +85,14 @@
 				D86371102C58D05F00EE4A31 /* numberViewController.swift */,
 			);
 			path = Number;
+			sourceTree = "<group>";
+		};
+		D86371122C58E07800EE4A31 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				D86371152C58E0A100EE4A31 /* validationViewController.swift */,
+			);
+			path = Validation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86370F52C58C2DC00EE4A31 /* ViewController.swift in Sources */,
+				D86371162C58E0A100EE4A31 /* validationViewController.swift in Sources */,
 				D86371112C58D05F00EE4A31 /* numberViewController.swift in Sources */,
 				D86370F12C58C2DC00EE4A31 /* AppDelegate.swift in Sources */,
 				D86370F32C58C2DC00EE4A31 /* SceneDelegate.swift in Sources */,
