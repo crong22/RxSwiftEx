@@ -20,6 +20,7 @@
 		D863711B2C58E55E00EE4A31 /* NumberViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863711A2C58E55E00EE4A31 /* NumberViewConrtoller.swift */; };
 		D863711D2C58E57300EE4A31 /* ValidationViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863711C2C58E57300EE4A31 /* ValidationViewConrtoller.swift */; };
 		D86371202C58E70700EE4A31 /* SimplePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863711F2C58E70700EE4A31 /* SimplePickerViewController.swift */; };
+		D86371262C5A133E00EE4A31 /* PickerExViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371252C5A133E00EE4A31 /* PickerExViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D863711A2C58E55E00EE4A31 /* NumberViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewConrtoller.swift; sourceTree = "<group>"; };
 		D863711C2C58E57300EE4A31 /* ValidationViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewConrtoller.swift; sourceTree = "<group>"; };
 		D863711F2C58E70700EE4A31 /* SimplePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePickerViewController.swift; sourceTree = "<group>"; };
+		D86371252C5A133E00EE4A31 /* PickerExViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		D86370EF2C58C2DC00EE4A31 /* RxSwiftEx */ = {
 			isa = PBXGroup;
 			children = (
+				D86371242C5A132800EE4A31 /* RxEx */,
 				D863711E2C58E6FA00EE4A31 /* Picker */,
 				D86371172C58E53900EE4A31 /* TableView */,
 				D86371122C58E07800EE4A31 /* Validation */,
@@ -115,6 +118,14 @@
 				D863711F2C58E70700EE4A31 /* SimplePickerViewController.swift */,
 			);
 			path = Picker;
+			sourceTree = "<group>";
+		};
+		D86371242C5A132800EE4A31 /* RxEx */ = {
+			isa = PBXGroup;
+			children = (
+				D86371252C5A133E00EE4A31 /* PickerExViewController.swift */,
+			);
+			path = RxEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86371202C58E70700EE4A31 /* SimplePickerViewController.swift in Sources */,
+				D86371262C5A133E00EE4A31 /* PickerExViewController.swift in Sources */,
 				D86370F52C58C2DC00EE4A31 /* ViewController.swift in Sources */,
 				D863711D2C58E57300EE4A31 /* ValidationViewConrtoller.swift in Sources */,
 				D863711B2C58E55E00EE4A31 /* NumberViewConrtoller.swift in Sources */,
