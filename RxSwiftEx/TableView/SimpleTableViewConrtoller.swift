@@ -13,7 +13,7 @@ import RxCocoa
 final class SimpleTableViewConrtoller : UIViewController {
     let tableView = UITableView()
     
-    let disposeBag = DisposeBag()    
+    let disposebag = DisposeBag()
     
     let list = [Int.random(in: 0...100)]
     
@@ -49,6 +49,7 @@ final class SimpleTableViewConrtoller : UIViewController {
             cell.textLabel?.text = "\(element) @ row \(row)"
             return cell
         }
+        .disposed(by: disposebag)
         
     }
 }
