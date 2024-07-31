@@ -23,6 +23,7 @@
 		D86371262C5A133E00EE4A31 /* PickerExViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371252C5A133E00EE4A31 /* PickerExViewController.swift */; };
 		D86371282C5A154200EE4A31 /* TableExViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371272C5A154200EE4A31 /* TableExViewController.swift */; };
 		D863712A2C5A184300EE4A31 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86371292C5A184300EE4A31 /* SwitchViewController.swift */; };
+		D863712C2C5A19BE00EE4A31 /* ButtonTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D863712B2C5A19BE00EE4A31 /* ButtonTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D86371252C5A133E00EE4A31 /* PickerExViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExViewController.swift; sourceTree = "<group>"; };
 		D86371272C5A154200EE4A31 /* TableExViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExViewController.swift; sourceTree = "<group>"; };
 		D86371292C5A184300EE4A31 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		D863712B2C5A19BE00EE4A31 /* ButtonTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				D86371252C5A133E00EE4A31 /* PickerExViewController.swift */,
 				D86371272C5A154200EE4A31 /* TableExViewController.swift */,
 				D86371292C5A184300EE4A31 /* SwitchViewController.swift */,
+				D863712B2C5A19BE00EE4A31 /* ButtonTextViewController.swift */,
 			);
 			path = RxEx;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				D863712A2C5A184300EE4A31 /* SwitchViewController.swift in Sources */,
 				D86370F52C58C2DC00EE4A31 /* ViewController.swift in Sources */,
 				D863711D2C58E57300EE4A31 /* ValidationViewConrtoller.swift in Sources */,
+				D863712C2C5A19BE00EE4A31 /* ButtonTextViewController.swift in Sources */,
 				D863711B2C58E55E00EE4A31 /* NumberViewConrtoller.swift in Sources */,
 				D86371282C5A154200EE4A31 /* TableExViewController.swift in Sources */,
 				D86371192C58E55300EE4A31 /* SimpleTableViewConrtoller.swift in Sources */,
