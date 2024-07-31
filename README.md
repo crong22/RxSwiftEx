@@ -19,7 +19,8 @@ next vs completed vs error
   * error : 오류발생 ( 상태오류, 네트워크오류 등등...)
 
 subject
-- Observable, Observer는 단방향으로 일을 전달하거나 일을 받아 처리하는건데 subject는 양방향으로 일을 전달과 처리를 둘 다 할 수 있음
+- Observable, Observer는 단방향으로 일을 전달하거나 일을 받아 처리
+- subject는 양방향으로 일을 전달(Observable), 처리(Observer는)를 둘 다 할 수 있음
 
 publishSubject vs behaviorSubject  
 - subject에서 사용 되는 이벤트로 behaviorSubject는 초기값이 필요하고, publishSubject는 초기값이 필요없다.
