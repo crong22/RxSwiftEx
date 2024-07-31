@@ -23,3 +23,6 @@ subject
 
 publishSubject vs behaviorSubject  
 - subject에서 사용 되는 이벤트로 behaviorSubject는 초기값이 필요하고, publishSubject는 초기값이 필요없다.
+
+  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=footer" />
